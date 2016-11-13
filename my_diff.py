@@ -24,7 +24,7 @@ def superdiff(input1, input2):
             else:
                 out.append('0 ' + add)
         elif original[0]=='' or len(original)==0:
-            add = mod.pop(0)
+            add = modified.pop(0)
             out.append('+ ' + add)
         else:
             out.append('- ' + original.pop(0))
